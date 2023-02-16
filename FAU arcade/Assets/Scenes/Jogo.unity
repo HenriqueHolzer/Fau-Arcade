@@ -1081,8 +1081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22ee70d0a56404489ae0239486286fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diferencaX: 95.91
-  minX: -88.08
+  diferencaX: 95.85
+  minX: -88
 --- !u!4 &644470994
 Transform:
   m_ObjectHideFlags: 0
@@ -1220,7 +1220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -87}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &757917515
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jacarePrefab: {fileID: 4916239323922893575, guid: 6356deb51900700458f0db67debd64d6, type: 3}
   jacaYMin: 2.31
-  jacaYMax: 3.6
+  jacaYMax: 3
   pipePrefab: {fileID: 3214690518187641955, guid: d175f6e23f3c1f84783d90e79166c3e6, type: 3}
   delayInicial: 2
   delayEntreCanos: 3
@@ -2178,7 +2178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1189893085}
-  jumpForce: 975
+  jumpForce: 1000
   ground:
     serializedVersion: 2
     m_Bits: 64
@@ -2209,7 +2209,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -2249,8 +2249,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -562, y: -150}
-  m_SizeDelta: {x: 652.395, y: 110.96}
+  m_AnchoredPosition: {x: -404, y: -85.99988}
+  m_SizeDelta: {x: 355.1505, y: 60.4043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258510952
 MonoBehaviour:
@@ -2274,10 +2274,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d98deee25a2eb134288ff5ab312b9547, type: 3}
-    m_FontSize: 50
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 5
+    m_MinSize: 2
     m_MaxSize: 54
     m_Alignment: 5
     m_AlignByGeometry: 0
@@ -2323,9 +2323,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1620ac33697e50c4bb7dc5c56212ae55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modificadorVel: 0.5
+  modificadorVel: 0.6
   vel: 6
-  maxVel: 12
+  maxVel: 18
 --- !u!4 &1327185534
 Transform:
   m_ObjectHideFlags: 0
@@ -2548,8 +2548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1335, y: -150}
-  m_SizeDelta: {x: 780.0269, y: 110.9552}
+  m_AnchoredPosition: {x: -843, y: -86}
+  m_SizeDelta: {x: 434.8606, y: 60.404}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378992850
 MonoBehaviour:
@@ -2573,10 +2573,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d98deee25a2eb134288ff5ab312b9547, type: 3}
-    m_FontSize: 50
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 54
     m_Alignment: 5
     m_AlignByGeometry: 0
@@ -2636,8 +2636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22ee70d0a56404489ae0239486286fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diferencaX: 95.91
-  minX: -88.08
+  diferencaX: 95.85
+  minX: -88
 --- !u!4 &1466948711
 Transform:
   m_ObjectHideFlags: 0
@@ -2955,8 +2955,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000015259, y: -299}
-  m_SizeDelta: {x: 1866.7, y: 1094.7795}
+  m_AnchoredPosition: {x: -2.9875, y: -193}
+  m_SizeDelta: {x: 1042.1, y: 792.5446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1747341858
 MonoBehaviour:
@@ -3124,7 +3124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -288}
+  m_AnchoredPosition: {x: 0, y: -222}
   m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807027735
@@ -3400,8 +3400,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 93}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: -19.776, y: 201}
+  m_SizeDelta: {x: 39.5528, y: 39.553}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929567004
 MonoBehaviour:
